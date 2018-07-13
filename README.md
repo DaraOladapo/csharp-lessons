@@ -5,7 +5,7 @@ As I start to focus on my core passion in tech-training and knowlege transfer, h
 We will be creating a C# application for a company called WindForce Corp.
 
 ## Lesson 1
-### Introducting C# and .NET
+### Introducing C# and .NET
 
 Here are the items we will be discussing.
 - What is .NET
