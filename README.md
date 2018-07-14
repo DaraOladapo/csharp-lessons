@@ -3,7 +3,7 @@ As I start to focus on my core passion in tech-training and knowlege transfer, h
 
 ### Our Demo
 We will be creating a C# application for a company called WindForce Corp.
-
+Let's have some fun!
 ## Lesson 1
 ### Introducing C# and .NET
 
@@ -14,10 +14,11 @@ Here are the items we will be discussing.
 
 ## Lesson 2
 ### Variables and Calculations
-
+In this lesson, we will be talking about data types, variables and do some fun things with those variables.
 
 ## Lesson 3
 ### Debugging
+In this lesson, we will be talking about how to locate some bugs in your code.
 
 ## Lesson 4
 ### Scope
