@@ -47,6 +47,10 @@ I wish I could show more here but maybe I'll put it in a book or video-concepts 
 
 ### Scope
 
+You know when we sometimes, some things are where they are not supposed to be. i.e. out of bounds or you are trying to call for something but you don't have access to it. Yeah, it happens in code too. We call it SCOPE.
+Now there are some scope levels. some you declare in class level, method level, even have some same-named variables.
+Check out the code to learn more.
+
 ## Lesson 5
 
 ### Strings
