@@ -16,9 +16,20 @@ Here are the items we will be discussing.
 ### Variables and Calculations
 In this lesson, we will be talking about data types, variables and do some fun things with those variables.
 
+In the calculations, we introduce on bug as a prerequisite to our next lesson where we deal with what bugs are, how to catch, swash and avoid them (you know, some could be devastating).
+
 ## Lesson 3
 ### Debugging
 In this lesson, we will be talking about how to locate some bugs in your code.
+From our last lesson, we noticed that when we performed the snippet below, our output was 0 instead of 0.5
+
+    int anotherDividedValue = secondValue / firstValue;
+    Console.WriteLine($"{secondValue}/{firstValue}={anotherDividedValue}");
+
+This is not supposed to be right? We call this a bug because our program is not doing what it is supposed to do.
+How do we solve this? Let's look into the code and DEBUG.
+
+Oh yeah, we introduced 2 new concepts here, CASTING and PARSING.
 
 ## Lesson 4
 ### Scope
