@@ -41,6 +41,8 @@ How do we solve this? Let's look into the code and DEBUG.
 Oh yeah, we introduced 2 new concepts here, CASTING and PARSING.
 Since we introduced parsing. We should probably treat something omitted here-accepting values from the console-quickly.
 
+I wish I could show more here but maybe I'll put it in a book or video-concepts like breakpoints.
+
 ## Lesson 4
 
 ### Scope
