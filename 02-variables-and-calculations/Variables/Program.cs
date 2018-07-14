@@ -15,7 +15,11 @@ namespace Variables
             //double
             double doubleValue=52.3;
 
-            //
+            //float
+            float floatValue=33.2;
+
+            //decimal
+            decimal decimalValue=25.56;
         }
     }
 }
