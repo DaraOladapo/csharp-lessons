@@ -20,6 +20,11 @@ namespace Debugging
             //method 2
             double parsedDivided = double.Parse(secondValue.ToString()) / double.Parse(firstValue.ToString());
             Console.WriteLine($"{secondValue}/{firstValue}={parsedDivided}");
+
+
+            //accept Values
+            var InputValue = Console.ReadLine();
+            Console.WriteLine($"Your input was {InputValue} of datatype {InputValue.GetType()}");
         }
     }
 }
