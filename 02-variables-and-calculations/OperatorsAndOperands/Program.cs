@@ -15,13 +15,15 @@ namespace OperatorsAndOperands
             //ignore the bug
             Console.WriteLine($"Division: {firstValue} / {secondValue} = {firstValue / secondValue}");
             Console.WriteLine($"Modulus: {firstValue} % {secondValue} = {firstValue % secondValue}");
-           
-            Console.WriteLine($"Pre-decrement: ++{firstValue} = {++firstValue}");
+
+            Console.WriteLine($"Pre-increment: ++{firstValue} = {++firstValue}");
             Console.WriteLine($"Pre-decrement: --{firstValue} = {--firstValue}");
 
+            Console.WriteLine($"Increment {firstValue} by {secondValue} using += gives {firstValue += secondValue}");
+            Console.WriteLine($"Decrement {firstValue} by {secondValue} using -= gives {firstValue -= secondValue}");
 
             //Logical
-            bool trueVal = true, falseVal = false, matchingTrueVal=true, matchingFalseVal=false;
+            bool trueVal = true, falseVal = false, matchingTrueVal = true, matchingFalseVal = false;
             //AND-&
             Console.WriteLine($"{trueVal} & {matchingTrueVal} = {trueVal & matchingTrueVal}");
             Console.WriteLine($"{trueVal} & {falseVal} = {trueVal & falseVal}");
@@ -37,6 +39,7 @@ namespace OperatorsAndOperands
             Console.WriteLine($"{trueVal} ^ {falseVal} = {trueVal ^ falseVal}");
             Console.WriteLine($"{falseVal} ^ {matchingFalseVal} = {falseVal ^ matchingFalseVal}");
             Console.WriteLine($"{falseVal} ^ {trueVal} = {falseVal ^ trueVal}");
+
             //CONDITIONAL AND-&&
             Console.WriteLine($"{trueVal} && {matchingTrueVal} = {trueVal && matchingTrueVal}");
             Console.WriteLine($"{trueVal} && {falseVal} = {trueVal && falseVal}");
@@ -47,6 +50,15 @@ namespace OperatorsAndOperands
             Console.WriteLine($"{trueVal} || {falseVal} = {trueVal || falseVal}");
             Console.WriteLine($"{falseVal} || {matchingFalseVal} = {falseVal || matchingFalseVal}");
             Console.WriteLine($"{falseVal} || {trueVal} = {falseVal || trueVal}");
+
+            //COMPARISON OPERATORS
+            Console.WriteLine($"{firstValue} == {firstValue} = {firstValue == secondValue}");
+            Console.WriteLine($"{firstValue} != {secondValue} = {firstValue += secondValue}");
+            Console.WriteLine($"{firstValue} < {secondValue} = {firstValue < secondValue}");
+            Console.WriteLine($"{firstValue} <= {secondValue} = {firstValue <= secondValue}");
+            Console.WriteLine($"{firstValue} > {secondValue} = {firstValue > secondValue}");
+            Console.WriteLine($"{firstValue} >= {secondValue} = {firstValue >= secondValue}");
+
         }
     }
 }
