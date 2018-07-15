@@ -16,6 +16,9 @@ Here are the items we will be discussing.
 - What is .NET
 - What is C#
 - Your Development Tools
+  - .NET Core SDK
+  - Visual Studio Code
+  - Visual Studio
 
 ## Lesson 2
 
