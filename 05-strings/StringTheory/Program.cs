@@ -14,6 +14,9 @@ namespace StringTheory
             Console.WriteLine(TabTheory);
             string DoubleQuoteTheory="I am in a \"double quote\" using \\\" \\\"";
             Console.WriteLine(DoubleQuoteTheory);
+            //replacing content...
+            string ReplacedTheory = Theory.Replace("states that", "kinda states that");
+            Console.WriteLine(ReplacedTheory);
         }
 
     }
