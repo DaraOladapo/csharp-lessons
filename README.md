@@ -61,6 +61,13 @@ In this section we will be talking about strings, how to use them, replace text,
 
 ### Dates and Times
 
+We look on how to do some manipulations with the DateTime object.
+
+- Get current date
+- Get current time
+- Get long date
+- Get long date
+
 ## Lesson 7
 
 ### Arrays and Collections
