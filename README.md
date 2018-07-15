@@ -55,6 +55,8 @@ Check out the code to learn more.
 
 ### Strings
 
+In this section we will be talking about strings, how to use them, replace text, concatenate strings. Yes, also string formatting is part of what will be doig.
+
 ## Lesson 6
 
 ### Dates and Times
