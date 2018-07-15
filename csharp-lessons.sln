@@ -5,29 +5,31 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-intro", "01-intro", "{E4F04B7C-275A-4145-B0B0-5D48BB1A17FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "01-intro\HelloWorld\HelloWorld.csproj", "{C84AF916-312D-415B-BF11-FACB7C39ABE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "01-intro\HelloWorld\HelloWorld.csproj", "{C84AF916-312D-415B-BF11-FACB7C39ABE6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-variables-and-calculations", "02-variables-and-calculations", "{D6CDA255-84DD-44E0-BBE6-913D7130FCDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "02-variables-and-calculations\Variables\Variables.csproj", "{765A6C19-2B0D-49D9-B47D-6D4A91B38A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "02-variables-and-calculations\Variables\Variables.csproj", "{765A6C19-2B0D-49D9-B47D-6D4A91B38A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "02-variables-and-calculations\DataTypes\DataTypes.csproj", "{2ED8318D-A396-4928-8A08-9C25E5F90261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "02-variables-and-calculations\DataTypes\DataTypes.csproj", "{2ED8318D-A396-4928-8A08-9C25E5F90261}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations", "02-variables-and-calculations\Calculations\Calculations.csproj", "{BCC0C206-5AA4-4E5B-8348-36A6BBB7DD2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations", "02-variables-and-calculations\Calculations\Calculations.csproj", "{BCC0C206-5AA4-4E5B-8348-36A6BBB7DD2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-debugging", "03-debugging", "{8368082C-2321-4AE8-9171-8B7A2F71AB76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debugging", "03-debugging\Debugging\Debugging.csproj", "{7FC8DD41-AEAB-42FD-A18E-991B9DA20D8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Debugging", "03-debugging\Debugging\Debugging.csproj", "{7FC8DD41-AEAB-42FD-A18E-991B9DA20D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsAndOperands", "02-variables-and-calculations\OperatorsAndOperands\OperatorsAndOperands.csproj", "{B9ACC3E7-449F-48DB-8534-A8816CAEE175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorsAndOperands", "02-variables-and-calculations\OperatorsAndOperands\OperatorsAndOperands.csproj", "{B9ACC3E7-449F-48DB-8534-A8816CAEE175}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-scope", "04-scope", "{C4972E01-EC0C-4768-BEAF-1D0BB87D0827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoping", "04-scope\Scoping\Scoping.csproj", "{107E62F1-1E69-4984-8511-5834298D51B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scoping", "04-scope\Scoping\Scoping.csproj", "{107E62F1-1E69-4984-8511-5834298D51B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-strings", "05-strings", "{67E1C1D3-9F74-4A9D-A073-EE418D91C870}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringTheory", "05-strings\StringTheory\StringTheory.csproj", "{AA117667-DE8D-45A8-9FF9-69C3BE6C5DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringTheory", "05-strings\StringTheory\StringTheory.csproj", "{AA117667-DE8D-45A8-9FF9-69C3BE6C5DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormattingStrings", "05-strings\FormattingStrings\FormattingStrings.csproj", "{35ECC7E3-499B-40E9-B421-75819963FFF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,9 +39,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C84AF916-312D-415B-BF11-FACB7C39ABE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -138,6 +137,21 @@ Global
 		{AA117667-DE8D-45A8-9FF9-69C3BE6C5DE0}.Release|x64.Build.0 = Release|Any CPU
 		{AA117667-DE8D-45A8-9FF9-69C3BE6C5DE0}.Release|x86.ActiveCfg = Release|Any CPU
 		{AA117667-DE8D-45A8-9FF9-69C3BE6C5DE0}.Release|x86.Build.0 = Release|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Debug|x64.Build.0 = Debug|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Debug|x86.Build.0 = Debug|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Release|x64.ActiveCfg = Release|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Release|x64.Build.0 = Release|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Release|x86.ActiveCfg = Release|Any CPU
+		{35ECC7E3-499B-40E9-B421-75819963FFF0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C84AF916-312D-415B-BF11-FACB7C39ABE6} = {E4F04B7C-275A-4145-B0B0-5D48BB1A17FF}
@@ -148,5 +162,9 @@ Global
 		{B9ACC3E7-449F-48DB-8534-A8816CAEE175} = {D6CDA255-84DD-44E0-BBE6-913D7130FCDD}
 		{107E62F1-1E69-4984-8511-5834298D51B2} = {C4972E01-EC0C-4768-BEAF-1D0BB87D0827}
 		{AA117667-DE8D-45A8-9FF9-69C3BE6C5DE0} = {67E1C1D3-9F74-4A9D-A073-EE418D91C870}
+		{35ECC7E3-499B-40E9-B421-75819963FFF0} = {67E1C1D3-9F74-4A9D-A073-EE418D91C870}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89391534-02FE-4732-9388-890160924BF3}
 	EndGlobalSection
 EndGlobal

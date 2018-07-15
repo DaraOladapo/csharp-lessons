@@ -17,6 +17,13 @@ namespace StringTheory
             //replacing content...
             string ReplacedTheory = Theory.Replace("states that", "kinda states that");
             Console.WriteLine(ReplacedTheory);
+            int someValue = 1952;
+            //concats and literal strings
+            Console.WriteLine(Theory+ " came to life in " + someValue);
+            Console.WriteLine("{0} came to life in {1}", Theory, someValue);
+            Console.WriteLine($"{Theory} came to life in {someValue}");
+
+            //formatiing strings
         }
 
     }
