@@ -75,6 +75,8 @@ We look on how to do some manipulations with the DateTime object.
 
 ### Arrays and Collections
 
+In this lesson, we discuss how to use arrays and collections -  one of the fun features of C# that I use quite a lot.
+
 ## Lesson 8
 
 ### Enumerations and Structures
