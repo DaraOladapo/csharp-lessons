@@ -6,6 +6,15 @@ namespace DataTypes
     {
         static void Main(string[] args)
         {
+            //Valid Variable names
+            string Value1;
+            string _Value1;
+            string Value_Haol ;
+            string FirstValue;
+            string firstValue;
+
+
+
            //string
             string stringMessage="This is a string";
 

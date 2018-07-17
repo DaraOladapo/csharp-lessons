@@ -18,7 +18,7 @@ namespace Variables
             Console.WriteLine($"doubleValue={doubleValue}");
 
             //assigning another value
-            doubleValue=66.5
+            doubleValue=66.5;
             Console.WriteLine($"doubleValue's new value  = {doubleValue}");
         }
     }
