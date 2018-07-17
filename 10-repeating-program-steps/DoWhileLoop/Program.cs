@@ -6,7 +6,13 @@ namespace DoWhileLoop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int i=2;
+            do
+            {
+            Console.WriteLine(i);
+            i+=2;    
+            } while (i<=10);
+            
         }
     }
 }
