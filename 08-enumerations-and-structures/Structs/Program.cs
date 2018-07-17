@@ -11,10 +11,16 @@ namespace Structs
             contactInfo.EmailAddress="someone@example.com";
             contactInfo.PhoneNumber="+2348012345678";
 
+            ContactInfo anotherInfo;
+            anotherInfo=contactInfo;
+            Console.WriteLine(anotherInfo.PhoneNumber);
+
+
             AccountInfo accountInfo;
-            accountInfo.AccountName="12345678";
+            accountInfo.AccountNumber="12345678";
             accountInfo.AccountName="Julius Roberts";
             accountInfo.AccountType=AccountType.Current;
+            Console.WriteLine(accountInfo.AccountType);
         }
      
     }

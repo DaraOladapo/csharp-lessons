@@ -20,7 +20,7 @@ namespace Enums
         static void Main(string[] args){
          Console.WriteLine($"My level as an employee is {EmployeeLevel.Senior}");
          customer = new AccountOwner();
-         //customer.CustomerAccountType="Curent";
+         //customer.CustomerAccountType="Current";
          //customer.CustomerAccountType=AccountType.Current.ToString();
         Console.WriteLine("What is your name?");
         customer.FullName=Console.ReadLine();
