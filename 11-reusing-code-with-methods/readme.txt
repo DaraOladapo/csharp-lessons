@@ -1,0 +1,1 @@
+We have treated this in enums and stuctures...Will add more detailed code later
