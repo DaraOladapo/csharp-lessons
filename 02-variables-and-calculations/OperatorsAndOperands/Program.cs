@@ -52,8 +52,8 @@ namespace OperatorsAndOperands
             Console.WriteLine($"{falseVal} || {trueVal} = {falseVal || trueVal}");
 
             //COMPARISON OPERATORS
-            Console.WriteLine($"{firstValue} == {firstValue} = {firstValue == secondValue}");
-            Console.WriteLine($"{firstValue} != {secondValue} = {firstValue += secondValue}");
+            Console.WriteLine($"{firstValue} == {secondValue} = {firstValue == secondValue}");
+            Console.WriteLine($"{firstValue} != {secondValue} = {firstValue != secondValue}");
             Console.WriteLine($"{firstValue} < {secondValue} = {firstValue < secondValue}");
             Console.WriteLine($"{firstValue} <= {secondValue} = {firstValue <= secondValue}");
             Console.WriteLine($"{firstValue} > {secondValue} = {firstValue > secondValue}");
