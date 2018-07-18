@@ -26,6 +26,6 @@ namespace ClassyFeeling
     }
     public enum BloodGroups
     {
-        APositive,ANegative,BPositive,BNegative,AB,OPositive,ONegative
+        APositive,ANegative,BPositive,BNegative,ABPositive, ABNegative,OPositive,ONegative
     }
 }
