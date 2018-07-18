@@ -1,0 +1,50 @@
+Employee inherits from Person
+  ID
+  NextOfKin (NextOfKin)
+  RelationshipStatus (RelationshipStatus)
+  Education (EducationInfo)
+  ContactInfo (ContactInfo)
+  Grade/Level (1-15)
+  Dept (IT, HR, Ops, Admin, Legal, Compliance, R&D)
+  Salary
+  Supervisor/Manager
+  AppointmentDate
+  Role (Intern, Trainee, Analyst, PjM, GM, CEO, Chairman, COO, CFO, CIO, DMD, CSO)
+  
+Person
+  FirstName (string)
+  MiddleName (string)
+  LastName (string)
+  DateOfBirth (DateTime)
+  Gender (Male, Female, Others)
+  Genotype (AA, AC, AS, SS, SC, CC)
+  BloodGroup (O+, O-, A+,A-, B+, B-, AB+, AB-)
+  Nationality
+  StateOfOrigin
+
+NextOfKin
+    FirstName
+    LastName
+    Relationship
+    PhoneNumber
+    EmailAddress
+    Occupation
+    Address
+
+RelationshipStatus
+    Single
+    Married
+    Divorced
+    Separated
+    Widowed
+
+EducationInfo
+    Institution
+    Qualification
+    YearOfGraduation
+    ClassOfDegree (FirstClass, SecondClass, etc)
+
+ContactInfo
+    PhoneNumber
+    EmailAddress
+    HomeAddress

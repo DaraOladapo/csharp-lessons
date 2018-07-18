@@ -17,7 +17,8 @@ namespace SwitchCases
             Console.WriteLine("Your input is 2");
              break;
              case 3:
-            Console.WriteLine("Your input is 3");
+             case 4:
+            Console.WriteLine($"Your input is {inputVal}");
              break;
             default:
             Console.WriteLine("Your input cannot be verified.");
