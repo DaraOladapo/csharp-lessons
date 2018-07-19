@@ -129,6 +129,8 @@ In this lesson, we discuss how to use arrays and collections -  one of the fun f
 
 ### Windows Apps with XAML
 
+//Reminder: Put links to learn XAML
+
 ## Lesson 21
 
 ### System IO

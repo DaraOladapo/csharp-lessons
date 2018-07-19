@@ -6,8 +6,18 @@ namespace ClassyFeeling
     {
         static void Main(string[] args)
         {
-            //TODO: Create a new class Employee with basic fields, create an interface for it also, create another class Person which Employee inherits from
-            //then do some method stunts
+            Employee _Employee = new Employee()
+            {
+                FirstName = "James",
+                LastName = "Roger",
+                MiddleName="Otunda",
+                DateOfBirth =DateTime.Parse("1990/06/01"),
+                relationshipStatus=RelationshipStatus.Married
+                //and other things
+                
+            };
+            Console.WriteLine($"{_Employee.FirstName} " +
+                $"is {_Employee.relationshipStatus}");
         }
     }
 }
